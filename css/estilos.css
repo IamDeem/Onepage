@@ -627,10 +627,15 @@ footer{
 }
 @media (max-width: 720px){
 
-    .menu-btn{
+    .thumb{
         display: block;
+        transform: translate(-25px);
     }
 
+   /* .titulo2{
+        display: block;
+        transform: translate(400px);
+    }*/
 
     #button{
         display: block;
@@ -641,7 +646,7 @@ footer{
         height: 100%;
         padding: 30px;
         opacity: .9;
-        transform: translate(-50px);
+        transform: translate(-25px);
         transition: transform .5s ease-in-out;
     }
 
