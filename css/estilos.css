@@ -630,6 +630,7 @@ footer{
     .thumb{
         display: block;
         transform: translate(-25px);
+        width: 80%;
         
         
     }
@@ -689,4 +690,106 @@ footer{
         
         
     }
+    .quienes{
+        width: 80%;
+    }
+    .inicio{
+        width: 80%;
+    }
+    .contacto{
+        width: 80%;
+    }
+    .historia{
+        width: 80%;
+    }
+    .galeria{
+        width: 80%;
+    }
+    .pregunta{
+        width: 80%;
+    }
+
+   /* @media (max-width: 412px){
+
+        .thumb{
+            display: block;
+            transform: translate(-25px);
+            width: 60%;
+            
+            
+        }
+    
+        .titulo1{
+            display: block;
+            transform: translate(-25px);
+        }
+    
+        .titulo2{
+            display: block;
+            transform: translate(-25px);
+            
+        }
+    
+        #button{
+            display: block;
+            position: auto;
+            top: 0;
+            left: 0;
+            background: #2f3640;
+            padding: 30px;
+            opacity: .9;
+            transform: translate(-75px);
+            transition: transform .5s ease-in-out;
+            
+        }
+    
+        .caja-texto{
+            display: block;
+            transform: translate(15px);
+            height: auto;
+            
+        }
+        
+        .label-texto{
+            display: block;
+            transform: translate(-15px);
+            
+        }
+    
+        .text-area{
+            display: block;
+            transform: translate(-15px);
+            
+        }
+    
+        .contacto{
+            display: block;
+            transform: translate(-25px);
+            margin-top: 25px;
+            
+        }
+        .contacto-i{
+            display: block;
+            transform: translate(-25px);
+            
+            
+        }
+        .quienes{
+            width: 60%;
+        }
+        .inicio{
+            width: 60%;
+        }
+        .contacto{
+            width: 60%;
+        }
+        .historia{
+            width: 60%;
+        }
+        .galeria{
+            width: 60%;
+        }
+        .pregunta{
+            width: 60%;
+        }*/
 }
