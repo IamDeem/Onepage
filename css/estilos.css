@@ -72,7 +72,7 @@ nav{
 
  .titulo{
     margin-top: 60px;
-    
+        text-align: center;
         padding: 34px 0px 30px 10px;
         font-family: 'Times New Roman', Times, serif;
         font-weight: normal;
@@ -90,7 +90,7 @@ display: flex;
 }
 
 .titulo2{
- 
+    text-align: center;
     padding: 34px 40px 30px 10px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
@@ -630,27 +630,63 @@ footer{
     .thumb{
         display: block;
         transform: translate(-25px);
+        
+        
     }
 
-   /* .titulo2{
+    .titulo1{
         display: block;
-        transform: translate(400px);
-    }*/
+        transform: translate(-25px);
+    }
+
+    .titulo2{
+        display: block;
+        transform: translate(-25px);
+        
+    }
 
     #button{
         display: block;
-        position: absolute;
+        position: auto;
         top: 0;
         left: 0;
         background: #2f3640;
-        height: 100%;
         padding: 30px;
         opacity: .9;
-        transform: translate(-25px);
+        transform: translate(-75px);
         transition: transform .5s ease-in-out;
+        
     }
 
+    .caja-texto{
+        display: block;
+        transform: translate(15px);
+        height: auto;
+        
+    }
     
-    
+    .label-texto{
+        display: block;
+        transform: translate(-15px);
+        
+    }
 
+    .text-area{
+        display: block;
+        transform: translate(-15px);
+        
+    }
+
+    .contacto{
+        display: block;
+        transform: translate(-25px);
+        margin-top: 25px;
+        
+    }
+    .contacto-i{
+        display: block;
+        transform: translate(-25px);
+        
+        
+    }
 }
